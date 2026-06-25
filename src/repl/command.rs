@@ -28,7 +28,7 @@ pub enum ReplCommand {
     Undo,
     #[cmd(name="exit", desc="Close sub-screens (help, list) or go back to main screen")]
     Exit,
-    #[cmd(name="quit", desc="Stop deducnat")]
+    #[cmd(name="quit", desc="Stop Sculpt")]
     Quit,
     Return // Emitted when inputting an empty field
 }
